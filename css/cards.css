@@ -1,0 +1,75 @@
+/* Reset do documento */
+
+/* Var de cores */
+:root {
+  --background: #000000;
+  --backgroundCard: #1a1a1a;
+  --borderCard: #333333;
+  --textColor: #ffffff;
+  --buttonBackground: rgb(205, 92, 92);
+  --buttonTextColor: #000000;
+}
+
+/* container2 */
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container2 .card {
+  position: relative;
+  min-width: 300px;
+  height: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 20px;
+  background-color: var(--backgroundCard);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.container2 .card:hover {
+  transform: translateY(-10px);
+}
+
+.container2 .card .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: var(--textColor);
+}
+
+.container2 .card .box .content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.container2 .card .box img {
+  max-width: 150px;
+  height: auto;
+}
+
+.container2 .card .box h2 {
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+.container2 .card .box p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.container2 .card .box .button {
+  /* background-color: var(--buttonBackground); */
+  color: var(--buttonTextColor);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+

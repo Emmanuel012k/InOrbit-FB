@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>FutureBlock</title>
+
+  <meta charset="utf-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="description" content="" />
+  <!-- Google Fonts -->
+  <link href="./NextBigInnovation_Files/webflow.css" rel="stylesheet" type="text/css" />
+  <script src="./NextBigInnovation_Files/webfont.js.download" type="text/javascript"></script>
+  <!-- Css -->
+  <link rel="stylesheet" href="css/style.min.css" />
+
+  <link rel="stylesheet" href="css/custom.css" />
+  <link rel="stylesheet" href="css/cards.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png" />
+
+</head>
+
+<body >
+  <div class="loader-mask">
+    <div class="loader">"Loading..."</div>
+  </div>
+
+
+  <!-- <div class="loader-container">
+        <div class="spinner"></div>
+        <div class="circuit-lines"></div>
+        <div class="tech-dots">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+        <div class="data-stream"></div>
+        <div class="tech-segments">
+            <div class="segment"></div>
+            <div class="segment"></div>
+            <div class="segment"></div>
+            <div class="segment"></div>
+        </div>
+        <div class="loading-text">LOADING</div>
+    </div> -->
+
+
+
+
+
+
+  <!-- Header -->
+  <header class="nav nav--always-fixed" itemtype="http://schema.org/WPHeader" itemscope>
+    <div class="nav__holder nav--sticky nav--align-center">
+      <div class="container-fluid container-semi-fluid">
+        <div class="flex-parent">
+          <div class="nav__header clearfix">
+            <!-- Logo --> 
+            <div class="logo-wrap local-scroll">
+              <!-- <picture href="#home">
+                <source media="(min-width:465px)" srcset="img/logo/logo22.png" />
+                <img src="img/logo/logo.png" alt="Flowers" style="width: 200px" />
+              </picture> -->
+            </div>
+
+            <button type="button" class="nav__icon-toggle" id="nav__icon-toggle" data-toggle="collapse"
+              data-target="#navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="nav__icon-toggle-bar"></span>
+              <span class="nav__icon-toggle-bar"></span>
+              <span class="nav__icon-toggle-bar"></span>
+            </button>
+          </div>
+          <!-- end nav-header -->
+
+          <!-- Navbar -->
+          <nav id="navbar-collapse" class="nav__wrap collapse navbar-collapse"
+          itemtype="http://schema.org/SiteNavigationElement" itemscope="itemscope">
+          <ul class="nav__menu local-scroll" id="onepage-nav">
+            <li class="nav__dropdown">
+              <a href="#" class="nav-link active" aria-haspopup="true">Home</a>
+            </li>
+
+            <li>
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav__dropdown">
+              <a href="#services" class="nav-link" aria-haspopup="true">Services</a>  
+              <ul class="nav__dropdown-menu">
+                <li>
+                  <a href="Advisory.html">
+                    <span class="nav__dropdown-menu-label" class="nav-link">Advisory</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="Automation.html">
+                    <span class="nav__dropdown-menu-label">Automation</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="Modernization.html">
+                    <span class="nav__dropdown-menu-label">Integrations</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="GuruSquad.html">
+                    <span class="nav__dropdown-menu-label">Business Analytics</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="CyberSecurity.html">
+                    <span class="nav__dropdown-menu-label">Cloud</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="Innovation.html">
+                    <span class="nav__dropdown-menu-label">Innovation Nodes</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <!-- end menu -->
+        </nav>
+          <!-- end nav-wrap -->
+          <div class="nav__socials flex-child d-none d-lg-block">
+            <div class="socials right">
+              <!-- <a href="#" class="social social-behance" aria-label="behance" title="behance" target="_blank"><i class="ui-behance"></i></a> -->
+              <a href="#" class="social social-twitter" aria-label="twitter" title="twitter" target="_blank"><i class="ui-twitter"></i></a>
+              <a href="#" class="social social-linkedin" aria-label="linkedin" title="linkedin" target="_blank"><i class="ui-linkedin"></i></a>
+              <a href="https://www.facebook.com " class="social social-facebook" aria-label="linkedin" title="facebook" target="_blank"><i class="ui-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- end flex-parent -->
+      </div>
+      <!-- end container -->
+    </div>
+  </header>
+  <!-- end navigation -->
+
+  <main class="main-wrap">
+    <div class="content-wrap">
+      <!-- Revolution Slider -->
+      <section id="Home" class="p-0">
+        <div class="rev_slider_wrapper">
+          <div class="rev_slider" id="slider1" data-version="5.0">
+            <ul>
+              <!-- SLIDE 1 -->
+              <li data-fstransition="fade" data-transition="parallaxtoright" data-easein="default"
+                data-easeout="default" data-slotamount="1" data-masterspeed="1200" data-delay="8000"
+                data-title="The Art of Design">
+
+                <div class="fv2--hero-section-2 wf-section">
+                  <div data-animation="default" data-collapse="medium" data-duration="200" data-easing="ease"
+                    data-easing2="ease" role="banner" class="global--navbar is--absolute w-nav">
+                    <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0">
+                    </div>
+                  </div>
+
+                  <!-- VIDEO COVER IMAGE -->
+                  <div class="container hero w-container">
+                    <div class="fv2--hero-grid-2">
+                      <div class="fv2--hero-cta">
+                        <div class="grid2em">
+                          <!-- <div id="content1" class="grid0-5em">
+                            <h2 style="color:rgb(255, 255, 255);">
+                              We Exist To                              
+                            </h2>
+                            <h3 style="color:white;">
+                             Empowering Tomorrow's Technology Today
+                            </h4>
+                          </div> -->
+                        </div>
+                      </div>
+
+                    
+                  </div>
+              </li>
+            </ul>
+
+          <div class="local-scroll">
+              <a href="#intro" class="scroll-down">
+                <!-- Empower -->
+              </a>
+              
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Intro -->
+          <section id="intro" class="intro bg-dark bg-pattern angle--dark">
+        <div class="container" data-aos="fade-up">
+          <div class="intro-pg" data-aos="fade-up">
+            <h3 class="section-subtitle section-subtitle--line" >Trend & Approach</h3>
+            <div data-aos="fade-up">
+               <div class="row d-flex d-flex align-items-center text-white">
+          <div class="col-lg-5 text-white">
+            
+              <h3 class="feature-work-title h4 text-muted light-300"></h3>
+              <div class="recent-work-header row text-center pb-5">                 
+              </div>
+              <p class="feature-work-body text-muted light-300 text-white">
+                Today, organizations need more adaptable and disruptive technologies and agile frameworks that allow them to innovate and transition smoothly and efficiently through the changing business dynamics. Are you confident about where you stand in the digital ecosystem and where you are headed?
+              </p><br><br>
+              <p class="feature-work-footer text-muted light-300 text-white" >Take advantage of our advisory services. Let our experienced industry experts evaluate and assess your technological capabilities to give you the REAL insights needed to make INFORMED and PROMPT DECISIONS for successful modernization and a competitive edge. </p>
+          </div>
+       
+          <div class="col-lg-4 offset-lg-2 align-left float-sm-right">
+           
+              <div class="row">
+                  <a class="col" data-type="image" data-fslightbox="gallery" ="img/hero/project_4 - Cp.jpg">
+                      <img class="img-fluid" src="img/hero/project_4 - no.jpg"><br><br>
+                    
+                  </a>
+                  <a class="col" data-type="image" data-fslightbox="gallery" ="./assets/img/feature-work-2-large.jpg">
+                      <img class="img-fluid" src="img/hero/project_4 - no.jpg"><br><br>
+                     
+                  </a>
+              </div>
+              <div class="row pt-4">
+                  <a class="col" data-type="image" data-fslightbox="gallery" ="./assets/img/feature-work-3-large.jpg">
+                      <img class="img-fluid" src="img/hero/project_4 - no.jpg">
+                  </a>
+                  <a class="col" data-type="image" data-fslightbox="gallery" ="./assets/img/feature-work-4-large.jpg">
+                      <img class="img-fluid" src="img/hero/project_4 - no.jpg">
+                  </a>
+              </div>
+            </div>
+         
+          </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end intro -->
+
+      <!-- Service Boxes -->
+      <section id="core" class="pb-72 bg-dark">
+        <div class="container" data-aos="fade-up">
+          <div class="row">
+            <div class="col-lg-5" data-aos="fade-up">
+              <div data-aos="fade-up">
+                <div data-aos="fade-up">
+                  <h3 class="section-subtitle section-subtitle--line">Core</h3>
+                  <h2 class="section-title">What we do</h2>
+                  <h4 class="service__title" style="color: rgb(255, 96, 96)">
+                    Accelerate Digitization journey to FUTURIZE NOW!.</h4>
+                  <!-- <h4 class="service__title" style="color: rgb(255, 107, 107)">
+                    Operate and Execute with Innovation and Digital Mindset.</h4> -->
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 offset-lg-1">
+              <div>
+                <div>
+                  <br>
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="service" data-aos="fade-up">
+                        <i class="service__icon o-handshake-1" style="color: rgb(201, 3, 3)"></i>
+                        <h4 class="service__title">Inspire</h4>
+                        <p class="service__text" id="color">
+                          Digitization trend is about creation and innovation. We inspire,advise and recommend business
+                          to think beyond to becoming a digital business.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="service" data-aos="fade-up">
+                        <i class="service__icon o-idea-1" style="color: rgb(201, 3, 3)"></i>
+                        <h4 class="service__title">Innovate</h4>
+                        <p class="service__text" id="color">
+                          Pargmatic Innovation catalyst to drive
+                          transformational value through continuous Innovation
+                          to help us and business particiapate in the Digital trend.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="service" data-aos="fade-up">
+                        <i class="service__icon o-lightning-bolt-1" style="color: rgb(201, 3, 3)"></i>
+                        <h4 class="service__title">Futurize</h4>
+                        <p class="service__text" id="color">
+                          Future is now! Our goal and endevour is to Futurize and Ditgitize.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="service" data-aos="fade-up">
+                        <i class="service__icon o-strategy-1" style="color: rgb(201, 3, 3)"></i>
+                        <h4 class="service__title">Digital Acceleraters</h4>
+                        <p class="service__text" id="color">
+                          Technology Accelerators to accelerate technology onboarding and adoption.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end service boxes -->
+
+      <!-- Results -->
+     <section class="section-results bg-gradient-bottom" style="
+            background-image: url('https://assets.website-files.com/604f2e0c6cb71e313f0a0cb3/604f2e0c6cb71e36e20a0cd7_transmitter.png');
+            filter: grayscale(20%);
+          ">
+
+ 
+
+        <div class="about">
+          <div class="row">
+            <div class="col-lg-3 results-col">
+              <div class="results">
+                <div class="results__counter">
+                  <span class="results__number" data-from="0" data-to="25">25</span>
+                  <span class="results__suffix">+</span>
+                </div>
+                <p class="results__text" >
+                  Technology Platform Implementations.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 results-col">
+              <div class="results">
+                <div class="results__counter">
+                  <span class="results__number" data-from="0" data-to="3">3</span>
+                </div>
+                <p class="results__text">
+                  Digital Market Place Implementations
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 results-col">
+              <div class="results">
+                <div class="results__counter">
+                  <span class="results__number" data-from="0" data-to="5">5</span>
+                </div>
+                <p class="results__text">Innovation virtual teams</p>
+              </div>
+            </div>
+            <div class="col-lg-3 results-col">
+              <div class="results">
+                <div class="results__counter">
+                  <span class="results__number" data-from="0" data-to="10">10</span>
+                  <span class="results__suffix">M+</span>
+                </div>
+                <p class="results__text">Cost saving for our customers.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+         <section class="section-about pb-72 bg-dark" id="about">
+
+           
+       
+        <div class="container" data-aos="fade-up">
+          <div class="">
+            <div class="row align-items-center">
+
+              <div class="col-lg-6 col-12">
+                <img src="https://images.unsplash.com/photo-1510906594845-bc082582c8cc?q=80&w=1688&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" id="img-fluid" alt="">
+              </div>
+
+              <div class="col-lg-6 col-12">
+                <div class="px-5 py-5 py-lg-0">
+
+                  <h4 class="mb-4"><span style="color: rgb(255, 255, 255) ">How</span> We Do It </h2>
+
+                  <p> 
+                    FutureBlock, founded by experienced technology professionals with a global consulting background, specializes in creating custom software solutions tailored for small and medium-sized businesses. We prioritize efficiency and customer-centric development by harnessing cloud technology.
+Our expertise extends to integrating technology solutions with ERP platforms like Power Bi, Microsoft Dynamics CRM, Odoo and Zoho, recognizing the need for customization to align with unique business processes.
+The team promotes continuous learning and leverages cutting-edge cloud technologies to deliver optimal Web, Mobile, BlockChain, and Cloud infrastructure solutions for the clients.
+                  </p>
+                  <!-- <p>Our automation platform uses a series of components like building blocks—connected to
+                    form an automation procedure. At FURENO, we offer you a full suite of tools, services,
+                    and insights to support the journey through the intelligent automation life-cycle.
+                  </p> -->
+                 
+
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>     
+
+      <!-- end about -->
+
+      <section class="pb-72 bg-dark" id="services">
+        <div class="pado" data-aos="fade-up">
+          <h3 class="section-subtitle section-subtitle--line">Services</h3>
+          <h3 class="section-title" class="fv2--h2 white">
+            Services Offerings
+          </h3>               
+        </div>
+ 
+
+<div class="container2">
+  <div class="card" data-aos="fade-up">
+    <div class="box" id="ModernizationCard">
+      <div class="content">
+        <!-- <h2>01</h2> -->
+        <p>Advisory</p>
+        <a href="Modernization.html" class="button">Enter course →</a>
+      </div>
+      <img src="./cardimage/604f2e0c6cb71e3f190a0ccc_Fulkrum.svg" loading="lazy" alt="" />
+    </div>
+  </div>
+   <div class="card" data-aos="fade-up">
+    <div class="box" id="ModernizationCard">
+      <div class="content">
+        <!-- <h2>01</h2> -->
+        <p>Intergations</p>
+        <a href="Modernization.html" class="button">Enter course →</a>
+      </div>
+         <img src="./cardimage/604f2e0c6cb71ec0c50a0cc9_Digimark.svg" loading="lazy" alt="" />
+    </div>
+  </div>
+   <div class="card" data-aos="fade-up">
+    <div class="box" id="ModernizationCard">
+      <div class="content">
+        <!-- <h2>01</h2> -->
+        <p>Cloud</p>
+        <a href="Modernization.html" class="button">Enter course →</a>
+      </div>
+      <img src="./cardimage/604f2e0c6cb71e18cf0a0cca_DigiWorx.svg" loading="lazy" alt="" />
+    </div>
+  </div>
+   <div class="card" data-aos="fade-up">
+    <div class="box" id="ModernizationCard">
+      <div class="content">
+        <!-- <h2>01</h2> -->
+        <p>Business Analatics</p>
+        <a href="Modernization.html" class="button">Enter course →</a>
+      </div>
+      <img src="./cardimage/604f2e0c6cb71e43630a0cd0_HCS.svg" loading="lazy" alt="" />
+    </div>
+  </div>
+   <div class="card" data-aos="fade-up">
+    <div class="box" id="ModernizationCard">
+      <div class="content">
+        <!-- <h2>01</h2> -->
+        <p>Cyber Security</p>
+        <a href="Modernization.html" class="button"> →</a>
+      </div>
+      <img src="./cardimage/604f2e0c6cb71ea93a0a0cd1_IOT Solutions.svg" loading="lazy" alt="" />
+    </div>
+  </div>
+   <div class="card" data-aos="fade-up">
+    <div class="box" id="ModernizationCard">
+      <div class="content">
+        <!-- <h2>01</h2> -->
+        <p>innovation Nodes</p>
+        <!-- <a href="Modernization.html" class="button">Enter course →</a> -->
+      </div>
+      <img src="./cardimage/604f2e0c6cb71e3f190a0ccc_Fulkrum.svg" loading="lazy" alt="" />
+    </div>
+  </div>
+  <!-- Repeat for other cards -->
+</div>
+
+
+  <!-- Repeat for other cards -->
+</div>
+
+    </div>
+   </section>
+
+    <!-- Team -->
+    <section class="section-team bg-black" id="works">
+      <div class="container" data-aos="fade-up">
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-4" data-aos="fade-up">
+            <div class="title-row" data-aos="fade-up">
+              <h3 class="section-subtitle section-subtitle--line">
+                Innovation Verticles
+              </h3>
+              <h2 class="section-title">Our Innovations in the works</h2>
+            </div>
+          </div>
+          <div class="col-lg-6 offset-lg-2" data-aos="fade-up">
+            <p class="section-description mt-32" id="color">
+              Apart from Technology adoption frameworks and accelerators, we have our own pipeline of digital products
+              aligning to three verticles Social,Brick & Motor and Fintech.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div data-aos="fade-up">
+              <div>
+                <div class="team">
+                  <img src="img/team/wiso.jpg" alt="team 1" />
+                  <div class="entry__body">
+                    <br />
+                    <div data-aos="fade-up">
+                      <h4 style="color: rgb(205, 92, 92)">Cloud</h4>
+                    </div>
+                    <div>
+                      <p class="service__text" id="color">
+                        Futuristic meaningful digital solutins to engage communities and business like never before.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div data-aos="fade-up">
+              <div>
+                <div class="team">
+                  <img src="img/team/brimo.jpg" alt="team 2" />
+                  <div class="entry__body">
+                    <br />
+                    <div data-aos="fade-up">
+                      <h4 style="color: rgb(205, 92, 92)">Mobile & Web</h4>
+                    </div>
+                    <div>
+                      <p class="service__text" id="color">
+                        Digital solutions to reduce,eliminate,manage and share Brick & Motor footprint
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div data-aos="fade-up">
+              <div>
+                <div class="team">
+                  <img src="img/team/slingshot.jpg" alt="team 3" />
+                  <div class="entry__body">
+                    <br />
+                    <div data-aos="fade-up">
+                      <h4 style="color: rgb(205, 92, 92)">Ibm</h4>
+                    </div>
+                    <div>
+                      <p class="service__text" id="color">
+                        Reshape, Reconstruct and Digitize with futuristic Banking and Finance Ditital solutions.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <!-- end team -->
+
+    <section class="pb-72 bg-dark" id="contact">
+      <div class="container w-container" data-aos="fade-up">
+        <h3 class="section-subtitle section-subtitle--line"> Contact</h3>
+        <div class="fv2--cta-grid" data-aos="fade-up">
+          <div data-aos="fade-up">
+            <h1 animated="true" class="fv2--h2 white">
+              Get started with us!
+            </h1>
+            <div class="fv2--cta-txt" data-aos="fade-up">
+              Got a more specific request? Send us a message.
+            </div>
+            <br>
+            <img width="300" class="fv2--earth-img" height="300" src="./NextBigInnovation_Files/604f2e0c6cb71e075e0a0ccd_EarthFinalv2.svg"
+              loading="lazy" />
+          </div>
+          <div class="w-form" data-aos="fade-up">
+            <form id="email-form" name="email-form" data-name="Email Form" class="form">
+              <input type="text" class="
+                        fv2--txt-input
+                        w-node-_0e626809-03f8-9f34-0fdf-d3c286e1ca29-86e1ca1f
+                        w-input
+                      " maxlength="256" name="name-2" data-name="Name 2" placeholder="Full name" id="name-2" /><input
+                type="email" class="fv2--txt-input w-input" maxlength="256" name="email-5" data-name="Email 5"
+                placeholder="Email address" id="email-5" required="" /><input type="tel" class="fv2--txt-input w-input"
+                maxlength="256" name="Phone-2" data-name="Phone 2" placeholder="Phone" id="Phone-2" required="" />
+               
+              <textarea placeholder="Project Details" maxlength="5000" id="field-2" name="field-2" data-name="Field 2"
+                class="
+                        fv2--txt-input
+                        is-text-area
+                        w-node-_0e626809-03f8-9f34-0fdf-d3c286e1ca2e-86e1ca1f
+                        w-input
+                      "></textarea>
+                       <br><br><br><br>
+                      <input type="submit" value="Submit" data-wait="Please wait..."
+                id="w-node-_0e626809-03f8-9f34-0fdf-d3c286e1ca2f-86e1ca1f" class="fv2--cta-button w-button" />
+            </form>
+            <div class="w-form-done">
+              <div>Thank you! Your submission has been received!</div>
+            </div>
+            <div class="w-form-fail">
+              <div>Oops! Something went wrong while submitting the form.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     </section>
+    </section>
+   
+    <!-- end content wrap -->
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark bg-pattern">
+      <div class="container">
+        <div class="footer__widgets">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="widget widget-about-us">
+                 
+                <span class="widget-about-us__text">We’d love to hear from you</span>
+                <a href="mailto:info@nextbiginnovationns.com"
+                  class="widget-about-us__email">info@futureblock.io</a>
+                <div class="socials mt-32">
+                  <a href="#" class="social social-twitter" aria-label="twitter" title="twitter" target="_blank"><i
+                      class="ui-twitter"></i></a>
+                  <a href="#" class="social social-google-plus" aria-label="linkedin" title="linkedin"
+                    target="_blank"><i class="ui-linkedin"></i></a>
+                  <a href="#" class="social social-facebook" aria-label="facebook" title="facebook" target="_blank"><i
+                      class="ui-facebook"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- end about us -->
+
+            <div class="col-lg-4 col-md-6">
+              <div class="widget text-center text-md-left">
+                <a href="https://www.google.com/maps/place/8044+Montgomery+Rd,+Cincinnati,+OH+45236/@39.2012313,-84.3727261,17z/data=!3m1!4b1!4m5!3m4!1s0x88405341451b78db:0x942da67b71b3c261!8m2!3d39.2012313!4d-84.3705374"
+                  class="widget-address__url" target="_blank">Get Directions</a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="widget widget-address">
+                <address class="widget-address__address">
+                  37 Hyderabad Rd, <br />
+                  rajeevnagar 700,<br />
+                  OH 533833
+                </address>
+              </div>
+
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contact-form-modal">
+    Need Help?
+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end container -->
+
+     
+      
+          <div class="copyright-wrap text-center">
+            <span class="copyright">
+              &copy; 2017 FutureBlock, all rights reserved.
+            </span>
+          </div>
+ 
+    </footer>
+    <!-- end footer -->
+
+    <!-- <div class="footer-placeholder" ></div> -->
+
+    <!-- Contact Form -->
+     
+       <!-- <div class="bg-dark bg-pattern modal fade contact-form-modal" id="contact-form-modal" role="dialog" aria-label="Contact Form Modal"
+      aria-hidden="true">
+        
+      <div class="modal-dialog contact-form-modal__dialog" role="document">
+        <div class="modal-content contact-form-modal__content">
+          <button type="button" class="close contact-form-modal__close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+
+
+        <section class="" id="contact" >
+      <div class="container w-container" data-aos="fade-up">        
+        <div class="fv2--cta-grid" data-aos="fade-up">           
+          <div class="w-form" data-aos="fade-up">
+            <form id="email-form" name="email-form" data-name="Email Form" class="form">
+              <input type="text" class="
+                        fv2--txt-input
+                        w-node-_0e626809-03f8-9f34-0fdf-d3c286e1ca29-86e1ca1f
+                        w-input
+                      " maxlength="256" name="name-2" data-name="Name 2" placeholder="Full name" id="name-2" /><input
+                type="email" class="fv2--txt-input w-input" maxlength="256" name="email-5" data-name="Email 5"
+                placeholder="Email address" id="email-5" required="" /><input type="tel" class="fv2--txt-input w-input"
+                maxlength="256" name="Phone-2" data-name="Phone 2" placeholder="Phone" id="Phone-2" required="" />
+               
+              <textarea placeholder="Project Details" maxlength="5000" id="field-2" name="field-2" data-name="Field 2"
+                class="
+                        fv2--txt-input
+                        is-text-area
+                        w-node-_0e626809-03f8-9f34-0fdf-d3c286e1ca2e-86e1ca1f
+                        w-input
+                      "></textarea>
+                       <br><br><br><br>
+                      <input type="submit" value="Send a message" data-wait="Please wait..."
+                id="w-node-_0e626809-03f8-9f34-0fdf-d3c286e1ca2f-86e1ca1f" class="fv2--cta-button w-button" />
+            </form>
+            <div class="w-form-done">
+              <div>Thank you! Your submission has been received!</div>
+            </div>
+            <div class="w-form-fail">
+              <div>Oops! Something went wrong while submitting the form.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+       </div>
+      </div>
+      </div> -->
+     
+    <!-- end contact form -->
+      <div class="bg-dark bg-pattern modal fade contact-form-modal" id="contact-form-modal" role="dialog" aria-label="Contact Form Modal"
+      aria-hidden="true">
+        
+      <div class="bg-dark modal-dialog contact-form-modal__dialog" role="document">
+        <div class="bg-dark modal-content contact-form-modal__content">
+          <button type="button" class="close contact-form-modal__close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+
+            <div class="containerco">
+        <div class="form-section">
+            <div class="form-header">
+                <h2>Chat to our team</h2>
+                <p>Need help with something? Want a demo? Get in touch with our friendly team and we'll get in touch within 2 hours.</p>
+            </div>
+            <form>
+                <div style="display: flex; gap: 12px; margin-bottom: 24px;">
+                    <div class="form-group" style="flex: 1;">
+                        <input type="text" placeholder="First name" required>
+                    </div>
+                    <div class="form-group" style="flex: 1;">
+                        <input type="text" placeholder="Last name" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Phone" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Work email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Enter your message" required></textarea>
+                </div>
+                
+               
+                <button type="submit">Get in touch</button>
+            </form>
+        </div>
+        <div class="image-section">
+            <div class="testimonial">
+                <p>Our software helps us manage cash flow, financial reporting and payroll with ease. It's a great solution for startups looking for an efficient way to manage their finances all-in-one.</p>
+            </div>
+        </div>
+    </div>
+   
+       </div>
+      </div>
+      </div>
+
+    <div id="back-to-top">
+      <a href="#top"><i class="ui-arrow-up"></i></a>
+    </div>
+  </main>
+  <!-- end main wrapper -->
+
+  <!-- jQuery Scripts -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/scripts.min.js"></script>
+
+  <!-- DISTORTION ADD-ON FILES -->
+  
+
+  <!-- <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script> -->
+  <script type="text/javascript" src="js/revolution.extension.carousel.min.js"></script>
+  <script type="text/javascript" src="js/revolution.extension.slideanims.min.js"></script>
+  <script type="text/javascript" src="js/revolution.extension.parallax.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+      AOS.init();
+  </script>
+  
+</body>
+
+</html>
