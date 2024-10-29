@@ -1819,9 +1819,9 @@ h6 small {
   }
 }
 
-@media only screen and (max-width: 991px) {
-  #section-subtitle {
-    margin-left: 20px;
+@media only screen and (max-width: 480px) {
+  .section-subtitle {
+    padding-left: 120px;
   }
 }
 
@@ -6455,7 +6455,7 @@ iframe {
   top: 20px;
   height: 2px;
   width: 40px;
-  background-color: #131313;
+  background-color: #ff0909;
 }
 .contact-form-modal__close span:before {
   transform: rotate(-45deg);
@@ -9381,4 +9381,9 @@ a img.aligncenter {
         textarea {
             height: 120px;
             resize: vertical;
+            background-color: #1f1f1f;
+
         }
+
+
+        
