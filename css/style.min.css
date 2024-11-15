@@ -3034,10 +3034,10 @@ header .flex-child.flex-right {
 
 }
 .loader:before {
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
   border: 3px solid transparent;
   border-top: 3px solid #ff0000;
   border-right: 3px solid #ff0000;
@@ -3053,29 +3053,43 @@ header .flex-child.flex-right {
   border-top-color: #ff4d4d; /* Lighter red for inner rings */
 }
 .loader:after {
-  top: 20px;
-  left: 20px;
-  right: 20px;
-  bottom: 20px;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
   animation: spin 2s linear infinite;
 }
-@keyframes animateC {
+
+
+@keyframes a {
   0% {
     transform: rotate(0deg);
   }
-  100% {
-    transform: rotate(360deg);
+  to {
+    transform: rotate(1turn);
+  }
+}
+@keyframes b {
+  0% {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-1turn);
   }
 }
 
-@keyframes animate {
-  0% {
-    transform: rotate(45deg);
+@media (max-width: 480px) {
+  .loader {
+     text-align: center;
+ 
   }
-  100% {
-    transform: rotate(405deg);
+
+  .loader-mask {
+      
+    margin-right: -90px;
   }
 }
+
 
 
 
