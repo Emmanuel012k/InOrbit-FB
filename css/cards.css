@@ -64,7 +64,7 @@
 
 .container2 .card .box .button {
   /* background-color: var(--buttonBackground); */
-  color: var(--buttonTextColor);
+  color:  white;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -73,3 +73,37 @@
   transition: background-color 0.3s;
 }
 
+ 
+/* Small screens */
+@media (max-width: 480px) {
+  .section-subtit {
+      font-size: 1.2rem;
+      margin-left: -170px;
+  }
+
+  .section-tit {
+      
+      margin-left: -170px;
+  }
+}
+
+
+.section-subtit {
+  font-size: 0.9325rem;
+  line-height: 1.56;
+  letter-spacing: normal;
+  font-weight: 700;
+  color: #ffffff;
+  position: relative;
+  text-transform: uppercase;
+}
+.section-subtit:before {
+  display: inline-block;
+  content: "";
+  width: 58px;
+  height: 5px;
+  margin-right: 16px;
+  position: relative;
+  top: -4px;
+  background-color: #fe0000;
+}
