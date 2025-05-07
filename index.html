@@ -13,10 +13,14 @@
   <script src="./NextBigInnovation_Files/webfont.js.download" type="text/javascript"></script>
   <!-- Css -->
   <link rel="stylesheet" href="css/style.min.css" />
-
   <link rel="stylesheet" href="css/custom.css" />
   <link rel="stylesheet" href="css/cards.css" />
+  <link rel="stylesheet" href="css/automation.css">
+  <link rel="stylesheet" href="css/banner-animations.css">
+  <link rel="stylesheet" href="css/revolution-slider.css">
+  <link rel="stylesheet" href="css/innovation-cards.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
   <!-- Favicons -->
   <link rel="shortcut icon" href="https://i.postimg.cc/3wJs8zYW/tech-ring-logo.png" />
@@ -48,8 +52,8 @@
             <!-- Logo --> 
             <div class="logo-wrap local-scroll">
               <picture href="#home">
-                <source media="(min-width:465px)" srcset="img/logo/futureblock-logo.png" />
-                <img src="img/logo/futureblock-logo.png" alt="Flowers" style="width: 270px" />
+                <source media="(min-width:465px)" srcset="img/logo/FB-Red-logo.png" />
+                <img src="img/logo/FB-Red-logo.png" alt="Flowers" style="width: 270px" />
               </picture>
             </div>
 
@@ -151,34 +155,45 @@
                     </div>
                   </div>
 
-                  <!-- VIDEO COVER IMAGE -->
+                  <!-- Hero Content -->
                   <div class="container hero w-container">
-                    <div class="fv2--hero-grid-2">
-                      <div class="fv2--hero-cta">
-                        <div class="grid2em">
-                          <div id="content1" class="grid0-5em">
-                            <!-- <h2 style="color:rgb(255, 255, 255);">
-                              We Exist To                              
-                            </h2>
-                            <h3 style="color:white;">
-                             Empowering Tomorrow's Technology Today
-                            </h4> -->
+                    <div class="hero-content">
+                      <div class="hero-text" data-aos="fade-right">
+                        <h2 class="animated-text">
+                          <span class="line">We Exist To</span>
+                          <span class="line highlight">Transform</span>
+                          <span class="line">Your Digital Future</span>
+                        </h2>
+                        <h3 class="subtitle" data-aos="fade-up" data-aos-delay="200">
+                          Empowering Tomorrow's Technology Today
+                        </h3>
+                        <p class="description" data-aos="fade-up" data-aos-delay="400">
+                          FutureBlock is your partner in digital transformation, bringing cutting-edge solutions and innovative technology to drive your business forward.
+                        </p>
+                        
+                      </div>
+                      <div class="hero-image" data-aos="fade-left">
+                        <div class="tech-sphere">
+                          <div class="sphere-container">
+                            <div class="sphere">
+                              <div class="sphere-ring"></div>
+                              <div class="sphere-ring"></div>
+                              <div class="sphere-ring"></div>
+                              <div class="sphere-core"></div>
+                            </div>
+                          </div>
+                          <div class="floating-elements">
+                            <div class="element" data-speed="2"></div>
+                            <div class="element" data-speed="3"></div>
+                            <div class="element" data-speed="4"></div>
                           </div>
                         </div>
                       </div>
-
-                    
+                    </div>
                   </div>
+                </div>
               </li>
             </ul>
-
-          <div class="local-scroll">
-              <a href="#intro" class="scroll-down">
-                <!-- Empower -->
-              </a>
-              
-
-            </div>
           </div>
         </div>
       </section>
@@ -401,66 +416,83 @@ The team promotes continuous learning and leverages cutting-edge cloud technolog
 
 <div class="container2">
   <div class="card" data-aos="fade-up">
-    <div class="box" id="ModernizationCard">
-      <div class="content">
-        <!-- <h2>01</h2> -->
-        <p>Advisory</p>
-        <a href="Advisory.html" class="button">Enter course →</a>
+    <a href="Advisory.html" class="card-link">
+      <div class="box" id="ModernizationCard">
+        <div class="particles"></div>
+        <div class="shine"></div>
+        <div class="glow"></div>
+        <div class="content">
+          <img src="./cardimage/isometric-cubes.svg" loading="lazy" alt="" />
+          <p>Advisory</p>
+        </div>
       </div>
-      <img src="./cardimage/isometric-cubes.svg" loading="lazy" alt="" />
-    </div>
+    </a>
   </div>
-   <div class="card" data-aos="fade-up">
-    <div class="box" id="ModernizationCard">
-      <div class="content">
-        <!-- <h2>01</h2> -->
-        <p>Intergations</p>
-        <a href="Modernization.html" class="button">Enter course →</a>
+  <div class="card" data-aos="fade-up">
+    <a href="Modernization.html" class="card-link">
+      <div class="box" id="ModernizationCard">
+        <div class="particles"></div>
+        <div class="shine"></div>
+        <div class="glow"></div>
+        <div class="content">
+          <img src="./cardimage/svg-integration-pattern.svg" loading="lazy" alt="" />
+          <p>Integrations</p>
+        </div>
       </div>
-         <img src="./cardimage/svg-integration-pattern.svg" loading="lazy" alt="" />
-    </div>
+    </a>
   </div>
-   <div class="card" data-aos="fade-up">
-    <div class="box" id="ModernizationCard">
-      <div class="content">
-        <!-- <h2>01</h2> -->
-        <p>Cloud</p>
-        <a href="Modernization.html" class="button">Enter course →</a>
+  <div class="card" data-aos="fade-up">
+    <a href="Modernization.html" class="card-link">
+      <div class="box" id="ModernizationCard">
+        <div class="particles"></div>
+        <div class="shine"></div>
+        <div class="glow"></div>
+        <div class="content">
+          <img src="./cardimage/cloud-computing-red.svg" loading="lazy" alt="" />
+          <p>Cloud</p>
+        </div>
       </div>
-      <img src="./cardimage/cloud-computing-red.svg" loading="lazy" alt="" />
-    </div>
+    </a>
   </div>
-   <div class="card" data-aos="fade-up">
-    <div class="box" id="ModernizationCard">
-      <div class="content">
-        <!-- <h2>01</h2> -->
-        <p>Business Analatics</p>
-        <a href="Modernization.html" class="button">Enter course →</a>
+  <div class="card" data-aos="fade-up">
+    <a href="Modernization.html" class="card-link">
+      <div class="box" id="ModernizationCard">
+        <div class="particles"></div>
+        <div class="shine"></div>
+        <div class="glow"></div>
+        <div class="content">
+          <img src="./cardimage/business-analysis-red.svg" loading="lazy" alt="" />
+          <p>Business Analytics</p>
+        </div>
       </div>
-      <img src="./cardimage/business-analysis-red.svg" loading="lazy" alt="" />
-    </div>
+    </a>
   </div>
-   <div class="card" data-aos="fade-up">
-    <div class="box" id="ModernizationCard">
-      <div class="content">
-        <!-- <h2>01</h2> -->
-        <p>Cyber Security</p>
-        <a href="Modernization.html" class="button">Enter course →</a>
+  <div class="card" data-aos="fade-up">
+    <a href="Modernization.html" class="card-link">
+      <div class="box" id="ModernizationCard">
+        <div class="particles"></div>
+        <div class="shine"></div>
+        <div class="glow"></div>
+        <div class="content">
+          <img src="./cardimage/cybersecurity-logo-dark.svg" loading="lazy" alt="" />
+          <p>Cyber Security</p>
+        </div>
       </div>
-      <img src="./cardimage/cybersecurity-logo-dark.svg" loading="lazy" alt="" />
-    </div>
+    </a>
   </div>
-   <div class="card" data-aos="fade-up">
-    <div class="box" id="ModernizationCard">
-      <div class="content">
-        <!-- <h2>01</h2> -->
-        <p>innovation Nodes</p>
-        <a href="Modernization.html" class="button">Enter course →</a>
+  <div class="card" data-aos="fade-up">
+    <a href="Modernization.html" class="card-link">
+      <div class="box" id="ModernizationCard">
+        <div class="particles"></div>
+        <div class="shine"></div>
+        <div class="glow"></div>
+        <div class="content">
+          <img src="./cardimage/robot-laptop.svg" loading="lazy" alt="" />
+          <p>Innovation Nodes</p>
+        </div>
       </div>
-      <img src="./cardimage/robot-laptop.svg" loading="lazy" alt="" />
-    </div>
+    </a>
   </div>
-  <!-- Repeat for other cards -->
 </div>
 
 
@@ -470,127 +502,88 @@ The team promotes continuous learning and leverages cutting-edge cloud technolog
     </div>
    </section>
 
-    <!-- Team -->
+    <!--  Team -->
     <section class="section-team bg-black" id="works">
       <div class="container" data-aos="fade-up">
         <div class="row" data-aos="fade-up">
           <div class="col-lg-4" data-aos="fade-up">
             <div class="title-row" data-aos="fade-up">
               <h3 class="section-subtitle section-subtitle--line">
-                Innovation Verticles
+                Innovation Verticals
               </h3>
               <h2 class="section-title">Our Innovations in the works</h2>
             </div>
-          </div>
-          <div class="col-lg-6 offset-lg-2" data-aos="fade-up">
-            <p class="section-description mt-32" id="color">
+            <!-- <p class="section-description" id="color">
               Apart from Technology adoption frameworks and accelerators, we have our own pipeline of digital products
-              aligning to three verticles Social,Brick & Motor and Fintech.
-            </p>
+              aligning to three verticals: Social, Brick & Motor and Fintech.
+            </p> -->
           </div>
         </div>
         <div class="row">
           <div class="col-lg-4">
             <div data-aos="fade-up">
-              <div>
-                <div class="team">
-                  <img src="img/team/wiso.jpg" alt="team 1" />
-                  <div class="entry__body">
-                    <br />
-                    <div data-aos="fade-up">
-                      <h4 style="color: rgb(205, 92, 92)">Cloud</h4>
-                    </div>
-                    <div>
-                      <p class="service__text" id="about-cm" id="color">
-                        Futuristic meaningful digital solutins to engage communities and business like never before.
-                      </p>
-                    </div>
-                  </div>
+              <div class="team">
+                <img src="img/team/wiso.jpg" alt="Cloud Solutions" />
+                <div class="entry__body">
+                  <h4>Cloud Solutions</h4>
+                  <p class="service__text">
+                    Futuristic meaningful digital solutions to engage communities and businesses like never before.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-4">
-            <div data-aos="fade-up">
-              <div>
-                <div class="team">
-                  <img src="img/team/brimo.jpg" alt="team 2" />
-                  <div class="entry__body">
-                    <br />
-                    <div data-aos="fade-up">
-                      <h4 style="color: rgb(205, 92, 92)">Mobile & Web</h4>
-                    </div>
-                    <div>
-                      <p class="service__text" id="about-cm" id="color">
-                        Digital solutions to reduce,eliminate,manage and share Brick & Motor footprint
-                      </p>
-                    </div>
-                  </div>
+            <div data-aos="fade-up" data-aos-delay="100">
+              <div class="team">
+                <img src="img/team/brimo.jpg" alt="Mobile & Web" />
+                <div class="entry__body">
+                  <h4>Mobile & Web</h4>
+                  <p class="service__text">
+                    Digital solutions to reduce, eliminate, manage and share Brick & Motor footprint.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-4">
-            <div data-aos="fade-up">
-              <div>
-                <div class="team">
-                  <img src="img/team/slingshot.jpg" alt="team 3" />
-                  <div class="entry__body">
-                    <br />
-                    <div data-aos="fade-up">
-                      <h4 style="color: rgb(205, 92, 92)">Ibm</h4>
-                    </div>
-                    <div>
-                      <p class="service__text" id="about-cm" id="color">
-                        Reshape, Reconstruct and Digitize with futuristic Banking and Finance Ditital solutions.
-                      </p>
-                    </div>
-                  </div>
+            <div data-aos="fade-up" data-aos-delay="200">
+              <div class="team">
+                <img src="img/team/slingshot.jpg" alt="IBM Solutions" />
+                <div class="entry__body">
+                  <h4>IBM Solutions</h4>
+                  <p class="service__text">
+                    Reshape, Reconstruct and Digitize with futuristic Banking and Finance Digital solutions.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    
-    <!-- end team -->
+    </section>
 
-    <section class="pb-72 bg-dark" id="contact">
+    <section class="contact-section pb-72 bg-dark" id="contact">
       <div class="container w-container" data-aos="fade-up">
-        <h3 class="section-subtitle section-subtitle--line"> Contact</h3>
+        <h3 class="section-subtitle section-subtitle--line">Contact Us</h3>
         <div class="fv2--cta-grid" data-aos="fade-up">
           <div data-aos="fade-up">
-            <h1 animated="true" class="fv2--h2 white">
-              Get started with us!
-            </h1>
+            <h1 class="fv2--h2 white">Get started with us!</h1>
             <div class="fv2--cta-txt" data-aos="fade-up">
-              Got a more specific request? Send us a message.
+              Got a more specific request? Send us a message and we'll get back to you shortly.
             </div>
-            <br>
-            <img width="300" class="fv2--earth-img" height="300" src="./NextBigInnovation_Files/604f2e0c6cb71e075e0a0ccd_EarthFinalv2.svg"
-              loading="lazy" />
+            <img src="./NextBigInnovation_Files/604f2e0c6cb71e075e0a0ccd_EarthFinalv2.svg" alt="Contact" class="fv2--earth-img" />
           </div>
           <div class="w-form" data-aos="fade-up">
             <form id="email-form" name="email-form" data-name="Email Form" class="form">
-              <input type="text" class="
-                        fv2--txt-input
-                        w-node-_0e626809-03f8-9f34-0fdf-d3c286e1ca29-86e1ca1f
-                        w-input
-                      " maxlength="256" name="name-2" data-name="Name 2" placeholder="Full name" id="name-2" /><input
-                type="email" class="fv2--txt-input w-input" maxlength="256" name="email-5" data-name="Email 5"
-                placeholder="Email address" id="email-5" required="" /><input type="tel" class="fv2--txt-input w-input"
-                maxlength="256" name="Phone-2" data-name="Phone 2" placeholder="Phone" id="Phone-2" required="" />
-               
-              <textarea placeholder="Project Details" maxlength="5000" id="field-2" name="field-2" data-name="Field 2"
-                class="
-                        fv2--txt-input
-                        is-text-area
-                        w-node-_0e626809-03f8-9f34-0fdf-d3c286e1ca2e-86e1ca1f
-                        w-input
-                      "></textarea>
-                       <br><br><br><br>
-                      <input type="submit" value="Submit" data-wait="Please wait..."
-                id="w-node-_0e626809-03f8-9f34-0fdf-d3c286e1ca2f-86e1ca1f" class="fv2--cta-button w-button" />
+              <input type="text" class="fv2--txt-input" name="name-2" placeholder="Full name" required />
+              <input type="email" class="fv2--txt-input" name="email-5" placeholder="Email address" required />
+              <input type="tel" class="fv2--txt-input" name="Phone-2" placeholder="Phone" required />
+              <textarea class="fv2--txt-input is-text-area" placeholder="Project Details" rows="5" required></textarea>
+              <button type="submit" class="fv2--cta-button">
+                <span>Submit</span>
+                <i class="fas fa-paper-plane"></i>
+              </button>
             </form>
             <div class="w-form-done">
               <div>Thank you! Your submission has been received!</div>
@@ -602,7 +595,7 @@ The team promotes continuous learning and leverages cutting-edge cloud technolog
         </div>
       </div>
     </section>
-     </section>
+    </section>
     </section>
    
     <!-- end content wrap -->
@@ -613,61 +606,59 @@ The team promotes continuous learning and leverages cutting-edge cloud technolog
     <footer class="bg-dark bg-pattern">
       <div class="container">
         <div class="footer__widgets">
-          <div class="row">
-            <div class="col-lg-4 col-md-6">
-              <div class="widget widget-about-us">
-                 
-                <span class="widget-about-us__text">We’d love to hear from you</span>
-                <a href="mailto:info@nextbiginnovationns.com"
-                  class="widget-about-us__email">info@futureblock.io</a>
-                <div class="socials mt-32">
-                  <a href="#" class="social social-twitter" aria-label="twitter" title="twitter" target="_blank"><i
-                      class="ui-twitter"></i></a>
-                  <a href="#" class="social social-google-plus" aria-label="linkedin" title="linkedin"
-                    target="_blank"><i class="ui-linkedin"></i></a>
-                  <a href="#" class="social social-facebook" aria-label="facebook" title="facebook" target="_blank"><i
-                      class="ui-facebook"></i></a>
+          <div class="row align-items-center">
+            <!-- Logo -->
+            <div class="col-lg-3 col-md-12 mb-3 mb-lg-0 text-lg-left text-center">
+              <div class="footer-logo">
+                <picture>
+                  <source media="(min-width:465px)" srcset="img/logo/Fb-Logo.png" />
+                  <img src="img/logo/Fb-Logo.png" alt="FutureBlock Logo" class="footer-logo-img" style="width: 230px;" />
+                </picture>
+              </div>
+            </div>
+            <!-- Services -->
+            <div class="col-lg-5 col-md-12 mb-3 mb-lg-0">
+              <div class="services-section">
+                <h4 class="services-title">Services</h4>
+                <div class="services-grid">
+                  <div class="service-item"><i class="ui-arrow-right"></i> <a href="Advisory.html">Advisory Services</a></div>
+                  <div class="service-item"><i class="ui-arrow-right"></i> <a href="Automation.html">Automation Solutions</a></div>
+                  <div class="service-item"><i class="ui-arrow-right"></i> <a href="Modernization.html">Integration Services</a></div>
+                  <div class="service-item"><i class="ui-arrow-right"></i> <a href="GuruSquad.html">Business Analytics</a></div>
+                  <div class="service-item"><i class="ui-arrow-right"></i> <a href="CyberSecurity.html">Cloud Solutions</a></div>
+                  <div class="service-item"><i class="ui-arrow-right"></i> <a href="Innovation.html">Innovation Nodes</a></div>
                 </div>
               </div>
             </div>
-            <!-- end about us -->
-
-            <div class="col-lg-4 col-md-6">
-              <div class="widget text-center text-md-left">
-                <a href="https://www.google.com/maps/place/8044+Montgomery+Rd,+Cincinnati,+OH+45236/@39.2012313,-84.3727261,17z/data=!3m1!4b1!4m5!3m4!1s0x88405341451b78db:0x942da67b71b3c261!8m2!3d39.2012313!4d-84.3705374"
-                  class="widget-address__url" target="_blank">Get Directions</a>
+            <!-- Contact Us -->
+            <div class="col-lg-4 col-md-12 text-lg-right text-center">
+              <div class="widget widget-contact">
+                <span style="color: #fff; font-size: 1.5em; font-weight: bold; letter-spacing: 1px; display: block; margin-bottom: 10px;">Contact Us</span>
+                <div class="contact-info mt-2">
+                  <div class="contact-item" style="font-weight: 500; font-size: 1.1em; display: flex; justify-content: flex-end; align-items: center;">
+                    <i class="fa-solid fa-envelope" style="margin-right: 8px;"></i>
+                    <a href="mailto:info@futureblock.com" style="color: #fff; font-weight: 500;">info@futureblock.com</a>
+                  </div>
+                  <div class="contact-item" style="font-weight: 500; font-size: 1.1em; display: flex; align-items: center;">
+                    <!-- <i class="fa-solid fa-location-dot" style="margin-right: 8px;"></i> -->
+                    <span style="color: #fff; font-weight: 500;">
+                      Plot No 37 Rajiv Nagar, Hyderabad, Telangana, India 500045
+                    </span>
+                  </div>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contact-form-modal">
+                    Need Help?
+                </button>
+                </div>
               </div>
-            </div>
-
-
-           
-
-            <div class="col-lg-4 col-md-6">
-              <div class="widget widget-address">
-                <address class="widget-address__address">
-                  37 Hyderabad Rd, <br />
-                  rajeevnagar 700,<br />
-                  OH 533833
-                </address>
-              </div>
-
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contact-form-modal">
-    Need Help?
-</button>
             </div>
           </div>
         </div>
       </div>
-      <!-- end container -->
-
-     
-      
-          <div class="copyright-wrap text-center">
-            <span class="copyright">
-              &copy; 2017 FutureBlock, all rights reserved.
-            </span>
-          </div>
- 
+      <div class="copyright-wrap text-center">
+        <span class="copyright">
+          &copy; 2017 FutureBlock. All rights reserved.
+        </span>
+      </div>
     </footer>
     <!-- end footer -->
  

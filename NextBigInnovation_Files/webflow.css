@@ -3411,6 +3411,17 @@ p {
   z-index: 1; /* Ensure the image is behind the video */
 }
 
+
+/* background-image:
+linear-gradient(45deg,
+   rgba(0, 0, 0, 0.75),
+   rgba(58, 58, 58, 0.75)), 
+     url(
+'https://images.unsplash.com/photo-1546146477-15a587cd3fcb?q=80&w=1827&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); */
+
+ 
+
+
 .fv2--hero-section-2 video { /* Style the video element */
   position: absolute;
   top: 0;

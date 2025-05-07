@@ -19,13 +19,17 @@
   <!-- <link rel="stylesheet" href="webflow.css" /> -->
   <link rel="stylesheet" href="css/custom.css" />
   <link rel="stylesheet" href="css/automation.css" />
+  <link rel="stylesheet" href="css/modernization.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/banner-animations.css" />
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   
-  <!-- Favicons -->
-  <link rel="shortcut icon" href="img/favicon.ico" />
-  <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
-  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png" />
-  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png" />
+     <!-- Favicons -->
+  <link rel="shortcut icon" href="https://i.postimg.cc/3wJs8zYW/tech-ring-logo.png" />
+  <link rel="apple-touch-icon" href="https://i.postimg.cc/3wJs8zYW/tech-ring-logo.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="https://i.postimg.cc/3wJs8zYW/tech-ring-logo.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="https://i.postimg.cc/3wJs8zYW/tech-ring-logo.png" />
 
 </head>
 
@@ -43,12 +47,12 @@
         <div class="flex-parent">
           <div class="nav__header clearfix">
             <!-- Logo -->
-            <!-- <div class="logo-wrap local-scroll">
+            <div class="logo-wrap local-scroll">
               <picture href="#home">
-                <source media="(min-width:465px)" srcset="img/logo/logo22.png" />
-                <img src="img/logo/logo.png" alt="Flowers" style="width: 250px" />
+                <source media="(min-width:465px)" srcset="img/logo/Fb-Logo-white.png.png" />
+                <img src="img/logo/Fb-Logo-white.png.png" alt="Flowers" style="width: 250px" />
               </picture>
-            </div> -->
+            </div>
 
             <button type="button" class="nav__icon-toggle" id="nav__icon-toggle" data-toggle="collapse"
               data-target="#navbar-collapse">
@@ -156,29 +160,38 @@
 
                   <!-- VIDEO COVER IMAGE -->
                   <div class="container hero w-container">
-                    <div class="fv2--hero-grid-2">
-                      <div class="fv2--hero-cta">
-                        <div class="grid2em">
-                          <!-- <div id="content1" class="grid0-5em">
-                            <h1 style="color:white;">
-                              GuruSquad Now!
-                            </h1>
-                            <h3 style="color:white;">
-                              GuruSquad at your disposal to Future Now!
-                            </h3>
-
-                          </div> -->
-
-                        </div>
-
+                    <div class="hero-content">
+                      <div class="hero-text" data-aos="fade-right">
+                        <h2 class="animated-text">
+                          <span class="line">Expert</span>
+                          <span class="line highlight">Squad</span>
+                          <span class="line">At Your Service</span>
+                        </h2>
+                        <h3 class="subtitle" data-aos="fade-up" data-aos-delay="200">
+                          Your Trusted Technology Partners
+                        </h3>
+                        <p class="description" data-aos="fade-up" data-aos-delay="400">
+                          Access our team of skilled professionals ready to tackle your most complex technology challenges. We bring expertise, innovation, and dedication to every project.
+                        </p>
                       </div>
-                      <div class="img-pop" >
-                        <!-- <div id="grid0-5em"> -->
-                      <div class="fv2--hero-img-div-2  fv2--lottie-bg">
-                        <!-- <img class="img" src="cardimage/604f2e0c6cb71e43630a0cd0_HCS.sv\" /> -->
+                      <div class="hero-image" data-aos="fade-left">
+                        <div class="team-animation">
+                          <div class="team-container">
+                            <div class="team-circle">
+                              <div class="team-member"></div>
+                              <div class="team-member"></div>
+                              <div class="team-member"></div>
+                              <div class="team-core"></div>
+                            </div>
+                          </div>
+                          <div class="connection-elements">
+                            <div class="element" data-speed="2"></div>
+                            <div class="element" data-speed="3"></div>
+                            <div class="element" data-speed="4"></div>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                    <!-- </div> -->
                   </div>
                 </div>
               </li>
@@ -357,63 +370,65 @@ Knowledge of project management methodologies
 
  </section>
   
-    <!-- Footer -->
-    <footer class="bg-dark bg-pattern">
-      <div class="container">
-        <div class="footer__widgets">
-          <div class="row">
-            <div class="col-lg-4 col-md-6">
-              <div class="widget widget-about-us">
-                <span class="widget-about-us__text">We’d love to hear from you</span>
-                <a href="mailto:info@nextbiginnovationns.com"
-                  class="widget-about-us__email">info@futureblock.io</a>
-                <div class="socials mt-32">
-                  <a href="#" class="social social-twitter" aria-label="twitter" title="twitter" target="_blank"><i
-                      class="ui-twitter"></i></a>
-                  <a href="#" class="social social-google-plus" aria-label="linkedin" title="linkedin"
-                    target="_blank"><i class="ui-linkedin"></i></a>
-                  <a href="#" class="social social-facebook" aria-label="facebook" title="facebook" target="_blank"><i
-                      class="ui-facebook"></i></a>
+  <!-- Footer -->
+  <footer class="bg-dark bg-pattern">
+    <div class="container">
+      <div class="footer__widgets">
+        <div class="row align-items-center">
+          <!-- Logo -->
+          <div class="col-lg-3 col-md-12 mb-3 mb-lg-0 text-lg-left text-center">
+            <div class="footer-logo">
+              <picture>
+                <source media="(min-width:465px)" srcset="img/logo/Fb-Logo.png" />
+                <img src="img/logo/Fb-Logo.png" alt="FutureBlock Logo" class="footer-logo-img" style="width: 230px;" />
+              </picture>
+            </div>
+          </div>
+          <!-- Services -->
+          <div class="col-lg-5 col-md-12 mb-3 mb-lg-0">
+            <div class="services-section">
+              <h4 class="services-title">Services</h4>
+              <div class="services-grid">
+                <div class="service-item"><i class="ui-arrow-right"></i> <a href="Advisory.html">Advisory Services</a></div>
+                <div class="service-item"><i class="ui-arrow-right"></i> <a href="Automation.html">Automation Solutions</a></div>
+                <div class="service-item"><i class="ui-arrow-right"></i> <a href="Modernization.html">Integration Services</a></div>
+                <div class="service-item"><i class="ui-arrow-right"></i> <a href="GuruSquad.html">Business Analytics</a></div>
+                <div class="service-item"><i class="ui-arrow-right"></i> <a href="CyberSecurity.html">Cloud Solutions</a></div>
+                <div class="service-item"><i class="ui-arrow-right"></i> <a href="Innovation.html">Innovation Nodes</a></div>
+              </div>
+            </div>
+          </div>
+          <!-- Contact Us -->
+          <div class="col-lg-4 col-md-12 text-lg-right text-center">
+            <div class="widget widget-contact">
+              <span style="color: #fff; font-size: 1.5em; font-weight: bold; letter-spacing: 1px; display: block; margin-bottom: 10px;">Contact Us</span>
+              <div class="contact-info mt-2">
+                <div class="contact-item" style="font-weight: 500; font-size: 1.1em; display: flex; justify-content: flex-end; align-items: center;">
+                  <i class="fa-solid fa-envelope" style="margin-right: 8px;"></i>
+                  <a href="mailto:info@futureblock.com" style="color: #fff; font-weight: 500;">info@futureblock.com</a>
                 </div>
+                <div class="contact-item" style="font-weight: 500; font-size: 1.1em; display: flex; align-items: center;">
+                  <!-- <i class="fa-solid fa-location-dot" style="margin-right: 8px;"></i> -->
+                  <span style="color: #fff; font-weight: 500;">
+                    Plot No 37 Rajiv Nagar, Hyderabad, Telangana, India 500045
+                  </span>
+                </div>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contact-form-modal">
+                  Need Help?
+              </button>
               </div>
-            </div>
-            <!-- end about us -->
-
-            <div class="col-lg-4 col-md-6">
-              <div class="widget text-center text-md-left">
-                <a href="https://www.google.com/maps/place/8044+Montgomery+Rd,+Cincinnati,+OH+45236/@39.2012313,-84.3727261,17z/data=!3m1!4b1!4m5!3m4!1s0x88405341451b78db:0x942da67b71b3c261!8m2!3d39.2012313!4d-84.3705374"
-                  class="widget-address__url" target="_blank">Get Directions</a>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-              <div class="widget widget-address">
-                <address class="widget-address__address">
-                  2 Hyderabad Rd, <br />
-                  Suite 7, Rajeev nagar<br />
-                  OH 500045
-                </address>
-              </div>
-
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contact-form-modal">
-    Need Help?
-</button>
             </div>
           </div>
         </div>
       </div>
-      <!-- end container -->
-
-     
-      
-          <div class="copyright-wrap text-center">
-            <span class="copyright">
-              &copy; 2017 FutureBlock, all rights reserved.
-            </span>
-          </div>
- 
-    </footer>
-    <!-- end footer -->
+    </div>
+    <div class="copyright-wrap text-center">
+      <span class="copyright">
+        &copy; 2017 FutureBlock. All rights reserved.
+      </span>
+    </div>
+  </footer>
+  <!-- end footer -->
 
     <div class="footer-placeholder" id="contact"></div>
 
